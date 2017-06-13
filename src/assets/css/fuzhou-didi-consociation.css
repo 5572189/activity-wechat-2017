@@ -1,0 +1,200 @@
+#layout {
+  position: relative;
+}
+
+#layout > img {
+  width: 100%;
+  height: auto;
+}
+
+#layout > ul {
+  position: absolute;
+  left: 0.4rem;
+  top: 5.333333rem;
+  list-style: none;
+}
+
+#layout > ul li {
+  float: left;
+  position: relative;
+  padding: 0.266667rem;
+  margin: 0.133333rem;
+  background-color: #fff;
+  border-radius: 0.133333rem;
+}
+
+#layout > ul li > a {
+  display: block;
+  width: 3.8rem;
+  height: 3.8rem;
+  border-radius: 0.133333rem;
+}
+
+#layout > ul li > a img {
+  width: 100%;
+  height: 100%;
+}
+
+#layout > ul li > div {
+  padding: 0.133333rem 0;
+}
+
+#layout > ul li > div p:nth-of-type(1) {
+  font-size: 0.266667rem;
+  text-align: center;
+  margin-top: 0.133333rem;
+}
+
+#layout > ul li > div p:nth-of-type(2) {
+  font-size: 0.186667rem;
+  text-align: center;
+  margin-top: 0.133333rem;
+}
+
+#layout > ul li > div span {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0.733333rem;
+  height: 0.733333rem;
+  background: url("../imgs/fuzhou-didi-consociatio/add.png") no-repeat;
+  background-size: cover;
+}
+
+#layout .official {
+  display: block;
+  width: 2.8rem;
+  height: 0.973333rem;
+  position: absolute;
+  left: 3.733333rem;
+  bottom: 3.333333rem;
+}
+
+#layout .official img {
+  width: 100%;
+  height: 100%;
+}
+
+#layout .code {
+  position: absolute;
+  left: 4.333333rem;
+  bottom: 0.666667rem;
+}
+
+#layout .code a {
+  display: block;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+#layout .code a img {
+  width: 100%;
+  height: 100%;
+}
+
+#layout .code p {
+  color: #f595a3;
+  margin-top: 0.133333rem;
+  font-size: 0.186667rem;
+  text-align: center;
+}
+
+.signin-shade {
+  display: none;
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  max-width: 10rem;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.signin-shade .signin {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -3.066667rem;
+  margin-left: -3.333333rem;
+  width: 6.666667rem;
+  height: 6.133333rem;
+  background: #fff;
+  border-radius: 0.133333rem;
+}
+
+.signin-shade .signin > p {
+  font-size: 0.4rem;
+  text-align: center;
+  margin-top: 0.8rem;
+  color: #ff0000;
+}
+
+.signin-shade .signin > ul {
+  list-style: none;
+  margin-left: 0.266667rem;
+  margin-top: 0.6rem;
+}
+
+.signin-shade .signin > ul li {
+  margin: 0.266667rem 0;
+  position: relative;
+  width: 6rem;
+  height: 0.8rem;
+  border-bottom: 0.013333rem solid #dcdcdc;
+}
+
+.signin-shade .signin > ul li input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 6rem;
+  height: 0.773333rem;
+  outline: none;
+  border: none;
+  font-size: 0.213333rem;
+}
+
+.signin-shade .signin > ul li > a {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 2.4rem;
+  height: 0.773333rem;
+  font-size: 0.213333rem;
+  background: #e9546b;
+  text-align: center;
+  line-height: 0.773333rem;
+  color: #fff;
+  border-radius: 0.133333rem;
+}
+
+.signin-shade .signin > ul li.active {
+  border-bottom: 0.013333rem solid #e9546b;
+}
+
+.signin-shade .signin .confirm {
+  display: block;
+  margin-left: 0.266667rem;
+  margin-top: 0.666667rem;
+  width: 6rem;
+  height: 0.8rem;
+  text-align: center;
+  line-height: 0.8rem;
+  color: #fff;
+  background-color: #e9546b;
+  border-radius: 0.133333rem;
+  font-size: 0.213333rem;
+}
+
+.signin-shade .signin .close {
+  display: block;
+  position: absolute;
+  top: 0.266667rem;
+  right: 0.266667rem;
+  width: 0.586667rem;
+  height: 0.586667rem;
+  background: url("../imgs/fuzhou-didi-consociatio/close.png") no-repeat;
+  background-size: 0.573333rem 0.586667rem;
+}
+/*# sourceMappingURL=fuzhou-didi-consociation.css.map */

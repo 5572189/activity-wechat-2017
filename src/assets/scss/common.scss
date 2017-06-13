@@ -1,0 +1,26 @@
+@charset "UTF-8";
+html { -webkit-tap-highlight-color: transparent;  }
+body { width: 100%; font-family: "Arial","微软雅黑"; font-size: 12px;  }
+input,button,select,textarea { outline:none; }
+body, p, h1, h2, h3, ul, dl, dt, dd, input, select ,textarea { margin: 0; padding: 0; }
+li { list-style: none; }
+img { border: none; vertical-align: top; }
+a:link, a:visited { text-decoration: none; }
+a:hover, a:focus, a:active { text-decoration: none; }
+.hide { display: none; }
+.clearfix { zoom: 1; }
+.clearfix:after { display: block; content: ''; clear: both; }
+
+#layout{max-width: 750px;width: 100%;margin: 0 auto;}
+header { position: relative; height: 90px; background: #e9546b; }
+header .logo{position: absolute;left: 30px;top: 25px; width: 147px;height: 40px;}
+header img {width: 100%;height: 100%; }
+header .link { position: absolute; top: 0; right: 30px;display: block;width: 100px;height: 90px;line-height: 90px; text-align: center;color: #fff;font-size: 20px;}
+
+.content{ width: 100%; }
+.content img { width: 100%; }
+
+footer { padding: 6px 0 2px; text-align: center; background: #fff; }
+footer img { width: 140px;height: 140px; }
+footer p { font-weight: normal; font-size: 20px;}
+footer p.phone{ line-height: 20px; font-size: 18px; }

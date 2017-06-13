@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<meta content="telephone=no,email=no" name="format-detection">
+		<!-- flexible.js 建议做内联处理，请勿移动位置 -->
+		<script src="assets/plugins/lib-flexible/flexible.js"></script>
+		<link rel="apple-touch-icon" href="favicon.png">
+		<link rel="Shortcut Icon" href="favicon.png" type="image/x-icon">
+	    <title>三小时送</title>
+	    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	    <link rel="stylesheet" href="assets/css/normalize.css" />
+	    <link rel="stylesheet" href="assets/css/common.css"/>
+	    <link rel="stylesheet" type="text/css" href="assets/css/fuzhou-didi-consociation.css"/>
+</head>
+
+<body> 
+	<div id="layout">
+		<img src="assets/imgs/fuzhou-didi-consociatio/layoutbg.png"/>
+		<ul id="cake" class="clearfix">
+		</ul>
+		<script id="tplCake" type="text/html">
+			{{each list as item i}}
+			<li>
+				<a href="javascript:;"><img src="{{item.linkimg}}"/></a>
+				<div>
+					<p>{{item.name}}</p>
+					<p>{{item.en}}</p>
+					<span class="buy"></span>
+				</div>
+			</li>
+			{{/each}}
+		</script>
+		<a class="official" href="javascript:;"><img src="assets/imgs/fuzhou-didi-consociatio/official.jpg"/></a>
+		<div class="code">
+			<a href="javascript:;">
+				<img src="assets/imgs/fuzhou-didi-consociatio/qr-code.png"/>
+			</a>
+			<p>福州二维码</p>
+		</div>
+		<div class="signin-shade">
+			<div class="signin">
+				<p>登录/注册</p>
+				<ul>
+					<li><input type="text" placeholder="请输入手机号" /><a href="javascript:;">获取短信验证码</a></li>
+					<li class="active"><input type="text"placeholder="请输入验证码" /></li>
+				</ul>
+				<a class="confirm" href="javascript:;">确认</a>
+				<span class="close"></span>
+			</div>
+		</div>
+	</div>
+	
+    <script src="assets/js/jquery-2.1.4.min.js" ></script>
+    <script src="assets/plugins/artTemplate/dist/template.js"></script>
+    <script src="assets/js/fuzhou-didi-consociatio.js" ></script>
+</body>
+
+</html>

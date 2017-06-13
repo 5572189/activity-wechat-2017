@@ -1,0 +1,96 @@
+.content {
+  max-width: 10rem;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.content .content-banner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #1e1e1e;
+}
+
+.content .content-banner .hero {
+  position: absolute;
+  left: 0.333333rem;
+  top: 0.533333rem;
+  width: 2.333333rem;
+  height: 2.573333rem;
+}
+
+.content .rule {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.content .rule a {
+  position: absolute;
+  left: 3.333333rem;
+  top: 0.133333rem;
+  display: block;
+  width: 3.64rem;
+  height: 0.933333rem;
+  -webkit-animation: btn 3s infinite;
+  animation: btn 3s infinite;
+}
+
+.content .rule a img {
+  width: 100%;
+  height: auto;
+}
+
+.content .rule dl {
+  position: absolute;
+  left: 0.666667rem;
+  top: 4rem;
+  color: #fff;
+}
+
+.content .rule dl dt {
+  font-size: 0.4rem;
+  padding-bottom: 0.266667rem;
+  text-align: center;
+}
+
+.content .rule dl dd {
+  font-size: 0.293333rem;
+  line-height: 0.6rem;
+}
+
+@-webkit-keyframes btn {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}
+
+@keyframes btn {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}
+/*# sourceMappingURL=fathers-day.css.map */

@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  width: 100%;
+  font-family: "Arial","微软雅黑";
+  font-size: 0.16rem;
+}
+
+input,
+button,
+select,
+textarea {
+  outline: none;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+ul,
+dl,
+dt,
+dd,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border: none;
+  vertical-align: top;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+#layout {
+  max-width: 10rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+  height: 1.2rem;
+  background: #e9546b;
+}
+
+header .logo {
+  position: absolute;
+  left: 0.4rem;
+  top: 0.333333rem;
+  width: 1.96rem;
+  height: 0.533333rem;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+}
+
+header .link {
+  position: absolute;
+  top: 0;
+  right: 0.4rem;
+  display: block;
+  width: 1.333333rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.266667rem;
+}
+
+.content {
+  width: 100%;
+}
+
+.content img {
+  width: 100%;
+}
+
+footer {
+  padding: 0.08rem 0 0.026667rem;
+  text-align: center;
+  background: #fff;
+}
+
+footer img {
+  width: 1.866667rem;
+  height: 1.866667rem;
+}
+
+footer p {
+  font-weight: normal;
+  font-size: 0.266667rem;
+}
+
+footer p.phone {
+  line-height: 0.266667rem;
+  font-size: 0.24rem;
+}
+/*# sourceMappingURL=common.css.map */

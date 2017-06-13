@@ -1,0 +1,76 @@
+.content{
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    .content-banner{
+       position: relative;  
+       a{
+            display: block;
+            width: 118px;
+            height: 53px;
+            background: url("../imgs/618/buy.png") no-repeat;
+            background-size: cover;
+        }
+        .btn-buy01{
+            position: absolute;
+            left: 190px;
+            top: 850px;
+        }
+        .btn-buy02{
+            position: absolute;
+            right: 140px;
+            top: 1070px;
+        }
+        .btn-buy03{
+            position: absolute;
+            left: 190px;
+            top: 1400px;
+        }
+        .btn-buy04{
+            position: absolute;
+            right: 140px;
+            top: 1620px;
+        }
+        .btn-buy05{
+            position: absolute;
+            left: 190px;
+            top: 1930px;
+        }
+        .btn-buy06{
+            position: absolute;
+            right: 140px;
+            top: 2200px;
+        }
+        .btn-buy07{
+            position: absolute;
+            left: 190px;
+            bottom: 340px;
+        }
+        .btn-buy08{
+            position: absolute;
+            right: 140px;
+            bottom: 50px;
+        }
+    }
+    
+}
+.rule{
+    width: 100%;
+    background: #9fc1f1;
+    color: #fff;
+    dl{
+       margin-left: 20px;
+       dt{
+           padding-top: 40px;
+           font-size: 20px;
+           font-weight: bold;
+       }
+       dd{
+           margin:  10px 0;
+           font-size: 18px;
+       }
+       dd:last-child{
+           padding-bottom: 60px;
+       }
+    }
+}
