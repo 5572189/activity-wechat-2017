@@ -1,0 +1,113 @@
+.content {
+  max-width: 10rem;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.content .content-banner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.content .content-banner a {
+  display: block;
+  position: absolute;
+  left: 40%;
+  top: 75%;
+  width: 20%;
+  height: 2.133333rem;
+  -webkit-animation: discount 3s infinite;
+  animation: discount 3s infinite;
+}
+
+.content .rule {
+  width: 100%;
+  height: 100%;
+  background: #a23434;
+  color: #fff;
+}
+
+.content .rule dl dt {
+  text-align: center;
+  padding: 0.133333rem 0;
+}
+
+[data-dpr="1"] .content .rule dl dt {
+  font-size: 8px;
+}
+
+[data-dpr="2"] .content .rule dl dt {
+  font-size: 16px;
+}
+
+[data-dpr="3"] .content .rule dl dt {
+  font-size: 24px;
+}
+
+.content .rule dl dd {
+  margin: 0.133333rem 0;
+  width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+[data-dpr="1"] .content .rule dl dd {
+  font-size: 7px;
+  line-height: 11px;
+}
+
+[data-dpr="2"] .content .rule dl dd {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+[data-dpr="3"] .content .rule dl dd {
+  font-size: 21px;
+  line-height: 33px;
+}
+
+.content .rule dl dd span {
+  font-weight: bold;
+}
+
+.content .rule dl dd:last-child {
+  padding-bottom: 0.266667rem;
+}
+
+@-webkit-keyframes discount {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}
+
+@keyframes discount {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}
+/*# sourceMappingURL=sc-surprise.css.map */

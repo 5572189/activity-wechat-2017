@@ -53,10 +53,13 @@
 			</div>
 		</div>
 	</div>
-	
-    <script src="assets/js/jquery-2.1.4.min.js" ></script>
-    <script src="assets/plugins/artTemplate/dist/template.js"></script>
-    <script src="assets/js/fuzhou-didi-consociatio.js" ></script>
+	<script src="assets/plugins/LABjs/LAB.min.js"></script>
+	<script>
+		$LAB
+			.script('assets/plugins/jquery/jquery-3.1.1.min.js').wait()
+			.script('assets/plugins/artTemplate/dist/template.js').wait()
+			.script('assets/js/fuzhou-didi-consociatio.js');
+	</script>
 </body>
 
 </html>

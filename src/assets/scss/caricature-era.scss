@@ -1,0 +1,40 @@
+.content{
+    max-width: 750px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    .content-banner{
+        position: relative;
+        width: 100%;
+        .btn{
+            position: absolute;
+            left: 30%;
+            bottom: 60px;/*no*/
+            display: block;
+            width: 39%;
+            height: 60px;/*no*/
+        }
+    }
+    .rule{
+        width: 100%;
+        background-color: #f4d4dd;
+        color: #e03155;
+        dl{
+            dt{
+                font-weight: bold;
+                text-align: center;
+                font-size: 18px;/*px*/
+                padding: 40px 0;
+            }
+            dd{
+                padding-left: 20px;
+                font-size: 16px;/*px*/
+                margin: 10px 0;
+            }
+            dd:last-child{
+                padding-bottom: 40px;
+            }
+        }
+    }
+}

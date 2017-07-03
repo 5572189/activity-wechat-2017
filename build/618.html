@@ -14,16 +14,16 @@
 	    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
 	    <link rel="stylesheet" href="assets/css/normalize.css" />
 	    <link rel="stylesheet" href="assets/css/common.css"/>
-	    <link rel="stylesheet" type="text/css" href="assets/css/618.css"/>
+	    <link rel="stylesheet" href="assets/css/618.css"/>
 </head>
 
-<body> 
+<body>
 	<div id="layout">
-		<header>
+		<header class="clearfix">
 	        <a class="logo" href="javascript:;"><img src="assets/imgs/logo.png" /></a>
 	        <a class="link" href="javascript:;">返回首页</a>
 	    </header>
-	    <div class="content"> 
+	    <div class="content">
 	    	<div class="content-banner">
 	    		<img src="assets/imgs/618/banner.png"/>
 	    		<a href="javascript:;" class="btn-buy01"></a>
@@ -46,6 +46,25 @@
 				</dl>
 	    	</div>
 	    </div>
+	    <div class="section" id="frm-register">
+			<div class="sec-header">
+				<p class="sec-title"><span>会员登录</span></p>
+			</div>
+			<div class="sec-body">
+				<ul class="frm">
+					<li class="clearfix">
+						<i class="icon-mobile"></i>
+						<input type="number" class="txt-mobile" placeholder="请输入手机号">
+						<a href="javascript:;" id="btn-vcode">获取短信验证码</a>
+					</li>
+					<li class="clearfix">
+						<i class="icon-vcode"></i>
+						<input type="number" class="txt-vcode" placeholder="请输入短信验证码">
+					</li>
+				</ul>
+				<a href="javascript:;" id="btn-register">立即订购</a>
+			</div>
+		</div>
 	    <footer>
 	        <img src="assets/imgs/QrCode_b.png" />
 	        <p>微信号：InCake_2012</p>

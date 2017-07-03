@@ -18,26 +18,25 @@
 	    <link rel="stylesheet" type="text/css" href="assets/css/three-hour-shopping.css"/>
 </head>
 
-<body> 
+<body>
 	<div id="layout">
-		<header>
+		<header class="clearfix">
 	        <a class="logo" href="javascript:;"><img src="assets/imgs/logo.png" /></a>
 	        <a class="link" href="javascript:;">返回首页</a>
 	    </header>
-	    <div class="content"> 
+	    <div class="content">
 	    	<div class="content-banner">
-	    		<img src="assets/imgs/three-hour-shopping/banner.png"/>
+                <a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake01.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake02.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake03.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake04.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake05.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake06.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake07.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake08.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake09.png" alt=""></a>
+	    		<a href="javascript:;" class="btn"><img src="assets/imgs/three-hour-shopping/cake10.png" alt=""></a>
 	    		<img src="assets/imgs/three-hour-shopping/time.png"/>
-	    		<a href="javascript:;" class="btn"></a>
-	    		<a href="javascript:;" class="btn"></a>
-	    		<a href="javascript:;" class="btn"></a>
-	    		<a href="javascript:;" class="btn"></a>
-	    		<a href="javascript:;" class="btn"></a>
-	    		<a href="javascript:;" class="btn"></a>
-	    		<a href="javascript:;" class="btn"></a>
-	    		<a href="javascript:;" class="btn"></a>
-	    		<a href="javascript:;" class="btn"></a>
-	    		<a href="javascript:;" class="btn"></a>
 	    	</div>
 	    	<div class="rule">
 	    		<dl>
@@ -53,10 +52,15 @@
 	        <p class="phone">400-921-5757</p>
 	    </footer>
 	</div>
-    <script src="assets/js/jquery-2.1.4.min.js" ></script>
-    <script src="assets/plugins/iosselect/iosSelect.js" ></script>
-    <script src="assets/plugins/iosselect/iscroll.js"></script>
-    <script src="assets/js/three-hour-shopping.js" type="text/javascript" charset="utf-8"></script>
+	<script src="assets/plugins/LABjs/LAB.min.js"></script>
+	<script>
+		$LAB
+			.script('assets/plugins/jquery/jquery-3.1.1.min.js').wait()
+		    .script('assets/plugins/iosselect/adaptive.js').wait()
+			.script('assets/plugins/iosselect/iosSelect.js').wait()
+			.script('assets/plugins/iosselect/iscroll.js').wait()
+			.script('assets/js/three-hour-shopping.js');
+	</script>
 </body>
 
 </html>

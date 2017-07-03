@@ -12,12 +12,12 @@
   background-color: #1e1e1e;
 }
 
-.content .content-banner .hero {
+.content .content-banner .price {
   position: absolute;
-  left: 0.333333rem;
-  top: 0.533333rem;
-  width: 2.333333rem;
-  height: 2.573333rem;
+  right: 2rem;
+  top: 7.333333rem;
+  width: 1.68rem;
+  height: 1.586667rem;
 }
 
 .content .rule {
