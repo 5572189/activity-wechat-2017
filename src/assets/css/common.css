@@ -75,27 +75,50 @@ a:hover {
 
 header {
   position: relative;
-  height: 28px;
-  padding: 6px 0 6px 24px;
   background: #e9546b;
 }
 
-header .logo {
-  width: 90px;
-  height: 28px;
+[data-dpr="1"] header .logo {
+  width: 63.5px;
+  height: 20px;
+  padding: 9px 0 9px 12px;
+}
+
+[data-dpr="2"] header .logo {
+  width: 127px;
+  height: 40px;
+  padding: 18px 0 18px 24px;
+}
+
+[data-dpr="3"] header .logo {
+  width: 190.5px;
+  height: 60px;
+  padding: 27px 0 27px 36px;
 }
 
 header .link {
   position: absolute;
   top: 0;
-  /*no*/
-  right: 24px;
-  width: 30%;
+  bottom: 0;
   text-align: right;
-  display: block;
-  font-size: 14px;
-  line-height: 40px;
+  display: table;
+  margin: auto;
   color: #fff;
+}
+
+[data-dpr="1"] header .link {
+  right: 12px;
+  font-size: 11px;
+}
+
+[data-dpr="2"] header .link {
+  right: 24px;
+  font-size: 22px;
+}
+
+[data-dpr="3"] header .link {
+  right: 36px;
+  font-size: 33px;
 }
 
 .content {
@@ -122,30 +145,30 @@ footer p {
 }
 
 [data-dpr="1"] footer p {
-  font-size: 7px;
+  font-size: 10px;
 }
 
 [data-dpr="2"] footer p {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 [data-dpr="3"] footer p {
-  font-size: 21px;
+  font-size: 30px;
 }
 
 footer p.phone {
-  padding-bottom: 0.133333rem;
+  padding-bottom: 0.266667rem;
 }
 
 [data-dpr="1"] footer p.phone {
-  font-size: 7px;
+  font-size: 10px;
 }
 
 [data-dpr="2"] footer p.phone {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 [data-dpr="3"] footer p.phone {
-  font-size: 21px;
+  font-size: 30px;
 }
 /*# sourceMappingURL=common.css.map */

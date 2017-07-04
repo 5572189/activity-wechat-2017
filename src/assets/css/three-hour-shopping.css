@@ -18,11 +18,35 @@
 }
 
 .content .rule dl dt {
-  font-size: 0.266667rem;
+  padding-bottom: 0.2rem;
+}
+
+[data-dpr="1"] .content .rule dl dt {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .content .rule dl dt {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .content .rule dl dt {
+  font-size: 36px;
 }
 
 .content .rule dl dd {
-  font-size: 0.24rem;
+  margin: 0.066667rem 0;
+}
+
+[data-dpr="1"] .content .rule dl dd {
+  font-size: 10px;
+}
+
+[data-dpr="2"] .content .rule dl dd {
+  font-size: 20px;
+}
+
+[data-dpr="3"] .content .rule dl dd {
+  font-size: 30px;
 }
 
 .layer {

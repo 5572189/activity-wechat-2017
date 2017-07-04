@@ -10,7 +10,7 @@
         .btn{
             position: absolute;
             left: 30%;
-            bottom: 60px;/*no*/
+            top: 85%;/*no*/
             display: block;
             width: 39%;
             height: 60px;/*no*/
@@ -21,15 +21,18 @@
         background-color: #f4d4dd;
         color: #e03155;
         dl{
+            width: 90%;
+            margin: 0 auto;
+
             dt{
                 font-weight: bold;
                 text-align: center;
-                font-size: 18px;/*px*/
+                font-size: 24px;/*px*/
                 padding: 40px 0;
             }
             dd{
-                padding-left: 20px;
-                font-size: 16px;/*px*/
+                font-size: 20px;/*px*/
+                text-align: justify;
                 margin: 10px 0;
             }
             dd:last-child{

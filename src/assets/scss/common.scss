@@ -74,22 +74,22 @@ a:hover {
 }
 header {
     position: relative;
-    height: 28px;/*no*/
-     padding: 6px 0 6px 24px; /*no*/
      background: #e9546b;
   }
 header .logo {
-    width: 90px;/*no*/
-    height: 28px; /*no*/}
+    width: 127px;/*px*/
+    height: 40px; /*px*/
+    padding: 18px 0 18px 24px; /*px*/
+}
 header .link {
     position: absolute;
-    top: 0;/*no*/
-    right: 24px;/*no*/
-    width: 30%;
+    top: 0;
+    right: 24px;/*px*/
+    bottom: 0;
     text-align: right;
-      display: block;
-     font-size: 14px;/*no*/
-     line-height: 40px; /*no*/
+      display: table;
+      margin: auto;
+     font-size: 22px;/*px*/
      color: #fff; }
 .content {
     width: 100%;
@@ -112,10 +112,10 @@ footer img {
 
 footer p {
     font-weight: normal;
-    font-size: 14px;  /*px*/
+    font-size: 20px;  /*px*/
 }
 
 footer p.phone {
-    font-size: 14px; /*px*/
-    padding-bottom: 10px;
+    font-size: 20px; /*px*/
+    padding-bottom: 20px;
 }
