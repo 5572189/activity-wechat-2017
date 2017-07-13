@@ -4,7 +4,7 @@
     margin: 0 auto;
     background: #eaebef;
     .banner-top{
-       position: relative;  
+       position: relative;
        a{
            position: absolute;
            left: 380px;
@@ -16,7 +16,7 @@
         }
     }
     .banner-bottom{
-       position: relative;  
+       position: relative;
        a{
            position: absolute;
            left: 280px;
@@ -33,25 +33,31 @@
     width: 100%;
     background: #a4d4f4;
     color: #727171;
-    height: 400px;
     overflow: hidden;
     dl{
        position: relative;
        width: 100%;
-       height: 400px;
-       background: url("../imgs/ali-cancer/ali-logo.png") no-repeat;
-       background-size: 80px 73px;
-       background-position:330px 310px ;
+       margin: 0 auto;
        dt{
            padding-top: 40px;
-           font-size: 18px;
+           font-size: 24px; /*px*/
            font-weight: bold;
            text-align: center;
        }
        dd{
            margin:  10px 0;
-           font-size: 16px;
+           font-size: 20px;/*px*/
            text-align: center;
+       }
+       .alibglogo{
+           display: block;
+           width: 100%;
+           height: 79px;
+           background: url("../imgs/ali-cancer/ali-logo.png") no-repeat;
+           background-size: 100px 79px;
+           background-position: 50% 0;
+           margin-top: 20px;
+           padding-bottom: 20px;
        }
     }
 }
