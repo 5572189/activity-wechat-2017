@@ -11,13 +11,14 @@
             height: 70px;
             padding: 35px 0 35px 55px;
         }
-        a{
+        button{
             display: block;
             position: absolute;
             right: 55px;
             top: 45px;
             width: 180px;
             height: 50px;
+            border: 0;
             text-align: center;
             line-height: 50px;
             font-size: 24px;/*px*/
@@ -132,6 +133,8 @@
         display: none;
         position: fixed;
         top: 0;
+        margin: 0 auto;
+        max-width: 750px;
         width: 100%;
         height: 100%;
         background-color: rgba(255,255,255,0.7);
@@ -183,13 +186,14 @@
                     font-size: 22px;
                 }
             }
-            a{
+            button{
                 position: absolute;
                 left: 0;
                 bottom: 0;
                 display: block;
                 width: 100%;
                 height: 60px;
+                border: 0;
                 font-size: 18px;
                 background-color: #007994;
                 text-align: center;
