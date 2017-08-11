@@ -82,4 +82,5 @@
         $('html,body').animate({ scrollTop: $obj.offset().top }, 800);
         $('.txt-mobile').focus();
     }
+    
 })(jQuery , window , document);

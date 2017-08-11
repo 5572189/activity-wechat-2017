@@ -1,0 +1,98 @@
+.content {
+  max-width: 10rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content .content-banner {
+  position: relative;
+}
+
+.content .content-banner a {
+  display: block;
+  width: 36%;
+  height: 0.933333rem;
+  background: url("../imgs/activity-little-product/btn.png") no-repeat;
+  background-size: 100%;
+  -webkit-animation: btn 3s infinite;
+  animation: btn 3s infinite;
+}
+
+.content .content-banner .btn-fx {
+  position: absolute;
+  left: 18%;
+  top: 43%;
+}
+
+.content .content-banner .btn-hs {
+  position: absolute;
+  right: 17%;
+  bottom: 35%;
+}
+
+.content .content-banner .btn-nm {
+  position: absolute;
+  left: 21%;
+  bottom: 13.5%;
+}
+
+.rule {
+  width: 100%;
+  background: #ffc0b8;
+}
+
+.rule dl {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.rule dl dt {
+  text-align: center;
+  padding-top: 0.533333rem;
+  font-size: 0.266667rem;
+  font-weight: bold;
+}
+
+.rule dl dd {
+  margin: 0.133333rem 0;
+  font-size: 0.24rem;
+}
+
+.rule dl dd:last-child {
+  padding-bottom: 0.8rem;
+}
+
+@-webkit-keyframes btn {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}
+
+@keyframes btn {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}
+/*# sourceMappingURL=activity-little-product.css.map */

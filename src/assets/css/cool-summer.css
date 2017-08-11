@@ -155,8 +155,16 @@
 
 #layout .frm-register .sec-body li .txt-mobile {
   float: left;
-  width: 60%;
+  width: 100%;
   border-radius: 0.066667rem 0 0 0.066667rem;
+}
+
+#layout .frm-register .sec-body li #btn-patterning {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 1.026667rem;
 }
 
 #layout .frm-register .sec-body li #btn-vcode {
@@ -178,8 +186,9 @@
   border-color: #99807f;
 }
 
-#layout .frm-register .sec-body li .txt-vcode {
-  width: 100%;
+#layout .frm-register .sec-body li .txt-vcode,
+#layout .frm-register .sec-body li .txt-patterning {
+  width: 60%;
 }
 
 #layout .frm-register .sec-body #btn-register {

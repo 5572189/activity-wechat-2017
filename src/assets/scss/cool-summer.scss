@@ -83,8 +83,15 @@
                     }
                     .txt-mobile{
                         float: left;
-                        width: 60%;
+                        width: 100%;
                         border-radius: 5px 0 0 5px;
+                    }
+                    #btn-patterning{
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 40%;
+                        height: 77px;
                     }
                     #btn-vcode{
                         position: absolute;
@@ -103,8 +110,8 @@
                         background-color: #99807f;
                         border-color: #99807f;
                     }
-                    .txt-vcode{
-                         width: 100%;
+                    .txt-vcode,.txt-patterning{
+                         width: 60%;
                     }
                 }
                 #btn-register{
