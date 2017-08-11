@@ -1,0 +1,95 @@
+.content {
+  max-width: 10rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content .content-banner {
+  position: relative;
+}
+
+.content .content-banner a {
+  display: block;
+  width: 19%;
+  height: 0.506667rem;
+  background: url("../imgs/ali-valentine-day/btn.png") no-repeat;
+  background-size: 100%;
+  -webkit-animation: btn 3s infinite;
+  animation: btn 3s infinite;
+}
+
+.content .content-banner .btn-one {
+  position: absolute;
+  right: 18%;
+  top: 25.5%;
+}
+
+.content .content-banner .btn-two {
+  position: absolute;
+  left: 10%;
+  top: 50.5%;
+}
+
+.content .content-banner .btn-three {
+  position: absolute;
+  right: 15%;
+  top: 72.2%;
+}
+
+.content .content-banner .rule {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.content .content-banner .rule dl dt {
+  padding-top: 0.533333rem;
+  font-size: 0.266667rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content .content-banner .rule dl dd {
+  margin: 0.133333rem 0;
+  font-size: 0.24rem;
+  text-align: center;
+}
+
+.content .content-banner .rule dl dd:last-child {
+  padding-bottom: 0.4rem;
+}
+
+@-webkit-keyframes btn {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}
+
+@keyframes btn {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}
+/*# sourceMappingURL=ali-valentine-day.css.map */
